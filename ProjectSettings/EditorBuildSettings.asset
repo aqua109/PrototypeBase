@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Launcher.unity
-    guid: 384adc88355251347bddb558f56817d8
+    path: Assets/Scenes/MixedReality Launcher.unity
+    guid: b59be961f7e92a341acb534eb410ef0f
   - enabled: 1
     path: Assets/Scenes/BaseScene for 1.unity
     guid: 2802cab430e7df540af9ac72dbbaae51
   - enabled: 1
     path: Assets/Scenes/BaseScene for 2.unity
-    guid: 8891a8df8c2db714e9234ea135a4dd90
+    guid: 8ff6f73eac87f24409d9613b038a5559
   m_configObjects: {}
