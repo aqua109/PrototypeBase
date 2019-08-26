@@ -482,7 +482,7 @@ struct HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229;
 // System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource>
 struct HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F;
 // System.Collections.Generic.HashSet`1<System.Object>
-struct HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897;
+struct HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3;
 // System.Collections.Generic.HashSet`1<UnityEngine.GameObject>
 struct HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E;
 // System.Collections.Generic.IDictionary`2<Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose>
@@ -3512,7 +3512,7 @@ struct  Enumerator_t8434FF623060595DB1C2B2231A4DC225034F0A7A
 {
 public:
 	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1_Enumerator::_set
-	HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * ____set_0;
+	HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * ____set_0;
 	// System.Int32 System.Collections.Generic.HashSet`1_Enumerator::_index
 	int32_t ____index_1;
 	// System.Int32 System.Collections.Generic.HashSet`1_Enumerator::_version
@@ -3522,9 +3522,9 @@ public:
 
 public:
 	inline static int32_t get_offset_of__set_0() { return static_cast<int32_t>(offsetof(Enumerator_t8434FF623060595DB1C2B2231A4DC225034F0A7A, ____set_0)); }
-	inline HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * get__set_0() const { return ____set_0; }
-	inline HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 ** get_address_of__set_0() { return &____set_0; }
-	inline void set__set_0(HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * value)
+	inline HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * get__set_0() const { return ____set_0; }
+	inline HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 ** get_address_of__set_0() { return &____set_0; }
+	inline void set__set_0(HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * value)
 	{
 		____set_0 = value;
 		Il2CppCodeGenWriteBarrier((&____set_0), value);
@@ -13843,13 +13843,13 @@ public:
 
 
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void HashSet_1__ctor_mD42210B24B60EF3FE585AC51F7D237FB59F8C1D7_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR void HashSet_1__ctor_m8A209D312FD08A21AFB5551881E7A6946A07C0D5_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void List_1__ctor_mC832F1AC0F814BAEB19175F5D7972A7507508BC3_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m7A72E1813C14D0E707F0A81C100E6C5B49213421_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.HashSet`1/Enumerator<!0> System.Collections.Generic.HashSet`1<System.Object>::GetEnumerator()
-extern "C" IL2CPP_METHOD_ATTR Enumerator_t8434FF623060595DB1C2B2231A4DC225034F0A7A  HashSet_1_GetEnumerator_m263AF8F8486FF5B6747A4B4C20B314EC6BB388BF_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR Enumerator_t8434FF623060595DB1C2B2231A4DC225034F0A7A  HashSet_1_GetEnumerator_m263AF8F8486FF5B6747A4B4C20B314EC6BB388BF_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.HashSet`1/Enumerator<System.Object>::get_Current()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m4C430D4730AABE78C2EDBC5324F1E82FEC21CDED_gshared (Enumerator_t8434FF623060595DB1C2B2231A4DC225034F0A7A * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1/Enumerator<System.Object>::MoveNext()
@@ -13859,13 +13859,13 @@ extern "C" IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD1758E7826FDA8D185FC2C218
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
-extern "C" IL2CPP_METHOD_ATTR bool HashSet_1_Add_m5C5C93EC82B1448E5890A57160FE0700FBE62DDC_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, RuntimeObject * p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR bool HashSet_1_Add_m1A3167674F8646F908B2AF4977144E4D8175D695_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * p0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::ContainsKey(!0)
 extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m93EC95B6E113BF7A1AD4504EDB8B9991D8DABAC0_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::Add(!0,!1)
 extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_Add_m7F5F67863B4DA45FB04D1ABB199E68AAF461012A_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, RuntimeObject * p1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
-extern "C" IL2CPP_METHOD_ATTR bool HashSet_1_Remove_mDEE995DC0C479BC045A7490A0F7921B9ACBB4790_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, RuntimeObject * p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * p0, const RuntimeMethod* method);
 // System.Collections.Generic.Dictionary`2/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::GetEnumerator()
 extern "C" IL2CPP_METHOD_ATTR Enumerator_t436FDE5093367A803EC2F4960B2D8FD4498628DE  Dictionary_2_GetEnumerator_m1CEE590349F8FEFE6CC2FD6C6E0CDC04B0EE8083_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.KeyValuePair`2<!0,!1> System.Collections.Generic.Dictionary`2/Enumerator<System.UInt32,System.Object>::get_Current()
@@ -13883,7 +13883,7 @@ extern "C" IL2CPP_METHOD_ATTR void List_1_Add_m6930161974C7504C80F52EC379EF01238
 // !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * List_1_get_Item_mFDB8AD680C600072736579BBF5F38F7416396588_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, int32_t p0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Contains(!0)
-extern "C" IL2CPP_METHOD_ATTR bool HashSet_1_Contains_m76525371D7FFA91A1B054B1C65C86969133C2CD4_gshared (HashSet_1_t725419BA457D845928B505ACE877FF46BC71E897 * __this, RuntimeObject * p0, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR bool HashSet_1_Contains_m46AC83542050A403FDE1B6323623C4DDC36A83B8_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * p0, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
 extern "C" IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m507C9149FF7F83AAC72C29091E745D557DA47D22_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::Clear()
@@ -13977,9 +13977,9 @@ extern "C" IL2CPP_METHOD_ATTR void InputEventData_1__ctor_mA91DEBBEBCA2A1A6C842B
 // System.Void System.Collections.Generic.Stack`1<System.Object>::Push(!0)
 extern "C" IL2CPP_METHOD_ATTR void Stack_1_Push_m37B071735755DFDACCBD15B90883504F838E91EC_gshared (Stack_1_t0D197BFD9E4E8ABDD6CB59029EE175E24078F45D * __this, RuntimeObject * p0, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.Stack`1<System.Object>::get_Count()
-extern "C" IL2CPP_METHOD_ATTR int32_t Stack_1_get_Count_m8803B4178385D39338A1EDDC39FE6D8152F01A1D_gshared (Stack_1_t0D197BFD9E4E8ABDD6CB59029EE175E24078F45D * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR int32_t Stack_1_get_Count_m16E9BDCC0E7FED4B3B07168105065154C248FB4E_gshared (Stack_1_t0D197BFD9E4E8ABDD6CB59029EE175E24078F45D * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.Stack`1<System.Object>::Pop()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Stack_1_Pop_mD632EB4DA13E5CAEC62EECFAD1C88818F1223E20_gshared (Stack_1_t0D197BFD9E4E8ABDD6CB59029EE175E24078F45D * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Stack_1_Pop_m775FE83F320DC74FC2D399ECACBAFB4C1E91E6FD_gshared (Stack_1_t0D197BFD9E4E8ABDD6CB59029EE175E24078F45D * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Stack`1<System.Object>::Clear()
 extern "C" IL2CPP_METHOD_ATTR void Stack_1_Clear_m0B559B216B5E802A621DC7C10B9E8C5EC683FFE4_gshared (Stack_1_t0D197BFD9E4E8ABDD6CB59029EE175E24078F45D * __this, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.Toolkit.Input.SourcePoseEventData`1<System.Int32Enum>::Initialize(Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource,Microsoft.MixedReality.Toolkit.Input.IMixedRealityController,!0)
@@ -14036,12 +14036,12 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Enumerable_Aggregate_TisRuntimeObj
 // System.Void System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.FocusProvider/PointerData>::.ctor()
 inline void HashSet_1__ctor_m9D62A5F140D6EF880125DF7AB8F3762EE75783EC (HashSet_1_t3286DB830C92B5A50FC834D0DA44E6ADAACDCD71 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_t3286DB830C92B5A50FC834D0DA44E6ADAACDCD71 *, const RuntimeMethod*))HashSet_1__ctor_mD42210B24B60EF3FE585AC51F7D237FB59F8C1D7_gshared)(__this, method);
+	((  void (*) (HashSet_1_t3286DB830C92B5A50FC834D0DA44E6ADAACDCD71 *, const RuntimeMethod*))HashSet_1__ctor_m8A209D312FD08A21AFB5551881E7A6946A07C0D5_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.HashSet`1<UnityEngine.GameObject>::.ctor()
 inline void HashSet_1__ctor_m6DB682240050817EFD1E83DE1C3B438C84DAFB3E (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E * __this, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, const RuntimeMethod*))HashSet_1__ctor_mD42210B24B60EF3FE585AC51F7D237FB59F8C1D7_gshared)(__this, method);
+	((  void (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, const RuntimeMethod*))HashSet_1__ctor_m8A209D312FD08A21AFB5551881E7A6946A07C0D5_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Input.FocusProvider/PointerData>::.ctor()
 inline void List_1__ctor_m7D00E162503419278D6716197652DED64BC6B9B5 (List_1_tBCBEB3920240D8E26AD373E765B37AFF2688708D * __this, const RuntimeMethod* method)
@@ -14215,7 +14215,7 @@ extern "C" IL2CPP_METHOD_ATTR void PointerData__ctor_mEB63D3D2EA4F60ED0BCA0ED903
 // System.Boolean System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.FocusProvider/PointerData>::Add(!0)
 inline bool HashSet_1_Add_m9009306E2CB4A165E0D33B2ED62877DABDB4A547 (HashSet_1_t3286DB830C92B5A50FC834D0DA44E6ADAACDCD71 * __this, PointerData_t5A6C4D680CE92B5555C7D18B01BB93180509ADBE * p0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t3286DB830C92B5A50FC834D0DA44E6ADAACDCD71 *, PointerData_t5A6C4D680CE92B5555C7D18B01BB93180509ADBE *, const RuntimeMethod*))HashSet_1_Add_m5C5C93EC82B1448E5890A57160FE0700FBE62DDC_gshared)(__this, p0, method);
+	return ((  bool (*) (HashSet_1_t3286DB830C92B5A50FC834D0DA44E6ADAACDCD71 *, PointerData_t5A6C4D680CE92B5555C7D18B01BB93180509ADBE *, const RuntimeMethod*))HashSet_1_Add_m1A3167674F8646F908B2AF4977144E4D8175D695_gshared)(__this, p0, method);
 }
 // Microsoft.MixedReality.Toolkit.MixedRealityToolkit Microsoft.MixedReality.Toolkit.MixedRealityToolkit::get_Instance()
 extern "C" IL2CPP_METHOD_ATTR MixedRealityToolkit_tDC525C9CAB7842D94B1F1CF572AF6859FED4AD47 * MixedRealityToolkit_get_Instance_m02A5ECDA0A8291AA2EDDC518554EF3FAA470DBAD (const RuntimeMethod* method);
@@ -14248,7 +14248,7 @@ extern "C" IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F
 // System.Boolean System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.FocusProvider/PointerData>::Remove(!0)
 inline bool HashSet_1_Remove_mB3A153C90FFC6CB9381B87C4305244FC668ECF57 (HashSet_1_t3286DB830C92B5A50FC834D0DA44E6ADAACDCD71 * __this, PointerData_t5A6C4D680CE92B5555C7D18B01BB93180509ADBE * p0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t3286DB830C92B5A50FC834D0DA44E6ADAACDCD71 *, PointerData_t5A6C4D680CE92B5555C7D18B01BB93180509ADBE *, const RuntimeMethod*))HashSet_1_Remove_mDEE995DC0C479BC045A7490A0F7921B9ACBB4790_gshared)(__this, p0, method);
+	return ((  bool (*) (HashSet_1_t3286DB830C92B5A50FC834D0DA44E6ADAACDCD71 *, PointerData_t5A6C4D680CE92B5555C7D18B01BB93180509ADBE *, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, p0, method);
 }
 // System.Void Microsoft.MixedReality.Toolkit.Input.FocusProvider::ReconcilePointers()
 extern "C" IL2CPP_METHOD_ATTR void FocusProvider_ReconcilePointers_m8F15E83551BFB79B3ECD332EFA9BE437CC214E31 (FocusProvider_tE62A5FD2D6E816B0BE0FAF7996D5488345E7DDE3 * __this, const RuntimeMethod* method);
@@ -14408,12 +14408,12 @@ inline void List_1_Add_m99CC2297CB76E2597B79B8586B4CB7C941E7B89A (List_1_tBCBEB3
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.GameObject>::Add(!0)
 inline bool HashSet_1_Add_m683D71064E0E13E6835CF84CA743D8528E61B695 (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E * __this, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * p0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))HashSet_1_Add_m5C5C93EC82B1448E5890A57160FE0700FBE62DDC_gshared)(__this, p0, method);
+	return ((  bool (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))HashSet_1_Add_m1A3167674F8646F908B2AF4977144E4D8175D695_gshared)(__this, p0, method);
 }
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.GameObject>::Remove(!0)
 inline bool HashSet_1_Remove_m959CA76C6788170A88C252EF3809598CE4C8A847 (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E * __this, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * p0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))HashSet_1_Remove_mDEE995DC0C479BC045A7490A0F7921B9ACBB4790_gshared)(__this, p0, method);
+	return ((  bool (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, p0, method);
 }
 // !0 System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Input.FocusProvider/PointerData>::get_Item(System.Int32)
 inline PointerData_t5A6C4D680CE92B5555C7D18B01BB93180509ADBE * List_1_get_Item_mDF5BD58E49374DFC97242DEB16EC16F0CF17A710 (List_1_tBCBEB3920240D8E26AD373E765B37AFF2688708D * __this, int32_t p0, const RuntimeMethod* method)
@@ -14423,7 +14423,7 @@ inline PointerData_t5A6C4D680CE92B5555C7D18B01BB93180509ADBE * List_1_get_Item_m
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.GameObject>::Contains(!0)
 inline bool HashSet_1_Contains_mCF3A1439E9FA729CCE16E11868395E30F3844229 (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E * __this, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * p0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))HashSet_1_Contains_m76525371D7FFA91A1B054B1C65C86969133C2CD4_gshared)(__this, p0, method);
+	return ((  bool (*) (HashSet_1_t0C44F460B51C051B426D52ACDF3D6639DD4B3D2E *, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))HashSet_1_Contains_m46AC83542050A403FDE1B6323623C4DDC36A83B8_gshared)(__this, p0, method);
 }
 // System.Int32 System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Input.FocusProvider/PointerData>::get_Count()
 inline int32_t List_1_get_Count_m76DD59F3229E2ADAAC35E203E25659754A64C653 (List_1_tBCBEB3920240D8E26AD373E765B37AFF2688708D * __this, const RuntimeMethod* method)
@@ -14927,12 +14927,12 @@ extern "C" IL2CPP_METHOD_ATTR void MouseState__ctor_m00FE417DE1D9F6DF250D6914CC6
 // System.Void System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource>::.ctor()
 inline void HashSet_1__ctor_m9FEB57DB87F68F7CC3D41752C30F69B150808855 (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F * __this, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F *, const RuntimeMethod*))HashSet_1__ctor_mD42210B24B60EF3FE585AC51F7D237FB59F8C1D7_gshared)(__this, method);
+	((  void (*) (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F *, const RuntimeMethod*))HashSet_1__ctor_m8A209D312FD08A21AFB5551881E7A6946A07C0D5_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityController>::.ctor()
 inline void HashSet_1__ctor_m49C286A6EBEB45D2C376B5500FCE73CEB925FA22 (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 *, const RuntimeMethod*))HashSet_1__ctor_mD42210B24B60EF3FE585AC51F7D237FB59F8C1D7_gshared)(__this, method);
+	((  void (*) (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 *, const RuntimeMethod*))HashSet_1__ctor_m8A209D312FD08A21AFB5551881E7A6946A07C0D5_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.Stack`1<UnityEngine.GameObject>::.ctor()
 inline void Stack_1__ctor_mF400039D8900FD561A28673CD076F76107C4671C (Stack_1_tC02709ACE540EF1B798420EEAA99B467885E23FC * __this, const RuntimeMethod* method)
@@ -15115,12 +15115,12 @@ inline void Stack_1_Push_mF929EE10646217F668437801A1D2106AF7AB1CB5 (Stack_1_tC02
 // System.Int32 System.Collections.Generic.Stack`1<UnityEngine.GameObject>::get_Count()
 inline int32_t Stack_1_get_Count_m310679CEA5EA243C60D43EEA5C3868C747E91A94 (Stack_1_tC02709ACE540EF1B798420EEAA99B467885E23FC * __this, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (Stack_1_tC02709ACE540EF1B798420EEAA99B467885E23FC *, const RuntimeMethod*))Stack_1_get_Count_m8803B4178385D39338A1EDDC39FE6D8152F01A1D_gshared)(__this, method);
+	return ((  int32_t (*) (Stack_1_tC02709ACE540EF1B798420EEAA99B467885E23FC *, const RuntimeMethod*))Stack_1_get_Count_m16E9BDCC0E7FED4B3B07168105065154C248FB4E_gshared)(__this, method);
 }
 // !0 System.Collections.Generic.Stack`1<UnityEngine.GameObject>::Pop()
 inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * Stack_1_Pop_mB2423D63631B7912E77ABC628D90968AC0C9CF61 (Stack_1_tC02709ACE540EF1B798420EEAA99B467885E23FC * __this, const RuntimeMethod* method)
 {
-	return ((  GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * (*) (Stack_1_tC02709ACE540EF1B798420EEAA99B467885E23FC *, const RuntimeMethod*))Stack_1_Pop_mD632EB4DA13E5CAEC62EECFAD1C88818F1223E20_gshared)(__this, method);
+	return ((  GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * (*) (Stack_1_tC02709ACE540EF1B798420EEAA99B467885E23FC *, const RuntimeMethod*))Stack_1_Pop_m775FE83F320DC74FC2D399ECACBAFB4C1E91E6FD_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.Stack`1<UnityEngine.GameObject>::Clear()
 inline void Stack_1_Clear_m0C8AC2D295E18E7DEF76B0C197A88AE5FA4CE7B9 (Stack_1_tC02709ACE540EF1B798420EEAA99B467885E23FC * __this, const RuntimeMethod* method)
@@ -15136,26 +15136,26 @@ extern "C" IL2CPP_METHOD_ATTR void SourceStateEventData_Initialize_m48195FDCEF64
 // System.Boolean System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource>::Add(!0)
 inline bool HashSet_1_Add_m4BC74A15EE76ADB1A1A67AC9380714F42FEC370B (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F * __this, RuntimeObject* p0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Add_m5C5C93EC82B1448E5890A57160FE0700FBE62DDC_gshared)(__this, p0, method);
+	return ((  bool (*) (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Add_m1A3167674F8646F908B2AF4977144E4D8175D695_gshared)(__this, p0, method);
 }
 // System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityController> Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystem::get_DetectedControllers()
 extern "C" IL2CPP_METHOD_ATTR HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 * MixedRealityInputSystem_get_DetectedControllers_mA85F5B6E031EEB84AB0455C5225941F58FAC7E9A (MixedRealityInputSystem_t16E78C8E39F453D2A5EC96617A74B25078058CCC * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityController>::Add(!0)
 inline bool HashSet_1_Add_mEF8C4554179EDBE0DA31C237DBCD17AF8DB836C9 (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 * __this, RuntimeObject* p0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Add_m5C5C93EC82B1448E5890A57160FE0700FBE62DDC_gshared)(__this, p0, method);
+	return ((  bool (*) (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Add_m1A3167674F8646F908B2AF4977144E4D8175D695_gshared)(__this, p0, method);
 }
 // Microsoft.MixedReality.Toolkit.Input.IMixedRealityFocusProvider Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystem::get_FocusProvider()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject* MixedRealityInputSystem_get_FocusProvider_mF63C0A5203AB22480B5A35B0CC7C0E39518B97E4 (MixedRealityInputSystem_t16E78C8E39F453D2A5EC96617A74B25078058CCC * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource>::Remove(!0)
 inline bool HashSet_1_Remove_mDE83CDA5702AE684888339721D6E2D62AD06077B (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F * __this, RuntimeObject* p0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_mDEE995DC0C479BC045A7490A0F7921B9ACBB4790_gshared)(__this, p0, method);
+	return ((  bool (*) (HashSet_1_t4B62E27C06ABCF605D70F1692276AF89D9332D4F *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, p0, method);
 }
 // System.Boolean System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityController>::Remove(!0)
 inline bool HashSet_1_Remove_mCC9ED5ABAB86D5E4CB0221D60B64874D2D0D8850 (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 * __this, RuntimeObject* p0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_mDEE995DC0C479BC045A7490A0F7921B9ACBB4790_gshared)(__this, p0, method);
+	return ((  bool (*) (HashSet_1_t02265BFDCA60AA11C8DAAD2906D880F8171B5229 *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Remove_m28A31CB3DBF7F8272C72C9109E19480C1827C365_gshared)(__this, p0, method);
 }
 // System.Void Microsoft.MixedReality.Toolkit.Input.SourcePoseEventData`1<Microsoft.MixedReality.Toolkit.TrackingState>::Initialize(Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource,Microsoft.MixedReality.Toolkit.Input.IMixedRealityController,!0)
 inline void SourcePoseEventData_1_Initialize_mCFDABE1601F4B415F6CFABB35DEC791430125A5F (SourcePoseEventData_1_tB0375F43F33B46CEA5D6000C5D4568E11AE9F590 * __this, RuntimeObject* p0, RuntimeObject* p1, int32_t p2, const RuntimeMethod* method)

@@ -359,7 +359,7 @@ struct ValueCollection_tC935A0CB8F2162DB8392B9187AB1302A3041AC0B;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>
 struct ValueCollection_tCB423B86EE11F288AA12FD422B73DE7D459CD168;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>
-struct ValueCollection_t0B3ED4599D881B395A256D10EF70A297C2DA00C6;
+struct ValueCollection_t4F0931CDBEC78250B6593DE976E46E2179187225;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt32,Microsoft.MixedReality.Toolkit.Input.IMixedRealityController>
 struct ValueCollection_tFA9C4894251A430691190F5A2A11A4EE532537B9;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.UInt32,System.Object>
@@ -13818,9 +13818,9 @@ extern "C" IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m304A071E0B1280D634FD252F5
 // System.Void System.Collections.Generic.Queue`1<UnityEngine.XR.WSA.SurfaceId>::Clear()
 extern "C" IL2CPP_METHOD_ATTR void Queue_1_Clear_mA1215BA213ABBD2F481DA71DADFE7C7689877BCC_gshared (Queue_1_tA6C11EBF8FDE095B3E1145561094C8C2F7D35EDE * __this, const RuntimeMethod* method);
 // System.Collections.Generic.Dictionary`2/ValueCollection<!0,!1> System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::get_Values()
-extern "C" IL2CPP_METHOD_ATTR ValueCollection_t0B3ED4599D881B395A256D10EF70A297C2DA00C6 * Dictionary_2_get_Values_m7BD59B2D072D34F61274999F68B46035CB047D39_gshared (Dictionary_2_t03608389BB57475AA3F4B2B79D176A27807BC884 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR ValueCollection_t4F0931CDBEC78250B6593DE976E46E2179187225 * Dictionary_2_get_Values_m7BD59B2D072D34F61274999F68B46035CB047D39_gshared (Dictionary_2_t03608389BB57475AA3F4B2B79D176A27807BC884 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,System.Object>::GetEnumerator()
-extern "C" IL2CPP_METHOD_ATTR Enumerator_t6263B19C656D07B62170719F737CBF2B12E52B0D  ValueCollection_GetEnumerator_m344083D7D36B5B33B9C51BDE82CFFD210C0016A7_gshared (ValueCollection_t0B3ED4599D881B395A256D10EF70A297C2DA00C6 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR Enumerator_t6263B19C656D07B62170719F737CBF2B12E52B0D  ValueCollection_GetEnumerator_m344083D7D36B5B33B9C51BDE82CFFD210C0016A7_gshared (ValueCollection_t4F0931CDBEC78250B6593DE976E46E2179187225 * __this, const RuntimeMethod* method);
 // !1 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::get_Current()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m67D37BDC9BC870AC9BA0E9CCFD8A80EA8026CE97_gshared (Enumerator_t6263B19C656D07B62170719F737CBF2B12E52B0D * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::MoveNext()
@@ -13828,7 +13828,7 @@ extern "C" IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m3CFA4B369C1FF460973B4EC4
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>::Dispose()
 extern "C" IL2CPP_METHOD_ATTR void Enumerator_Dispose_m1BF03343A00A913C44F1CB2051D1A50C89D5B52B_gshared (Enumerator_t6263B19C656D07B62170719F737CBF2B12E52B0D * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::Clear()
-extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_Clear_m8B31D0EA3C1FCE4C6977A76829773DA0D127E217_gshared (Dictionary_2_t03608389BB57475AA3F4B2B79D176A27807BC884 * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR void Dictionary_2_Clear_m482455899CE0084909A48605A2F722B2F1307FB7_gshared (Dictionary_2_t03608389BB57475AA3F4B2B79D176A27807BC884 * __this, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.Queue`1<UnityEngine.XR.WSA.SurfaceId>::get_Count()
 extern "C" IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_m4B651E78E48530E028FCFE0338AF3F319A7C1A58_gshared (Queue_1_tA6C11EBF8FDE095B3E1145561094C8C2F7D35EDE * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.Queue`1<UnityEngine.XR.WSA.SurfaceId>::Dequeue()
@@ -14889,7 +14889,7 @@ inline void Enumerator_Dispose_mDEE4600599789CC612162F1233FAB7FBF975CA79 (Enumer
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessMeshObject>::Clear()
 inline void Dictionary_2_Clear_m7C9E1A6E49AE3ECD1AE8F7E846ED014195DE4B42 (Dictionary_2_t22054CDBDE8218AFD21BE0A5B45CC78167956666 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t22054CDBDE8218AFD21BE0A5B45CC78167956666 *, const RuntimeMethod*))Dictionary_2_Clear_m8B31D0EA3C1FCE4C6977A76829773DA0D127E217_gshared)(__this, method);
+	((  void (*) (Dictionary_2_t22054CDBDE8218AFD21BE0A5B45CC78167956666 *, const RuntimeMethod*))Dictionary_2_Clear_m482455899CE0084909A48605A2F722B2F1307FB7_gshared)(__this, method);
 }
 // System.Void UnityEngine.XR.WSA.SurfaceObserver::Dispose()
 extern "C" IL2CPP_METHOD_ATTR void SurfaceObserver_Dispose_mA842C19181453E384E1BCE368468F8762CBB9B1E (SurfaceObserver_tE97E43137858D5F6A417980ECDABAC2BB4CF1864 * __this, const RuntimeMethod* method);

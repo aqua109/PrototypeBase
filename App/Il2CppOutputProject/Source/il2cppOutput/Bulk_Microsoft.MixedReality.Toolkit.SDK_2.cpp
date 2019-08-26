@@ -507,7 +507,7 @@ struct Func_1_t48C2978A48CE3F2F6EB5B6DE269D00746483BB1F;
 // System.Func`2<Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping,System.Boolean>
 struct Func_2_t241D99AD8D52D1660BF100C4C32D3A253BFFF8BB;
 // System.Func`2<System.Object,System.Boolean>
-struct Func_2_t4B4B1E74248F38404B56001A709D81142DE730CC;
+struct Func_2_t7EE965B791A606D187CCB69569A433D4CBB36879;
 // System.IAsyncResult
 struct IAsyncResult_t8E194308510B375B42432981AE5E7488C458D598;
 // System.Int32[]
@@ -22410,7 +22410,7 @@ extern "C" IL2CPP_METHOD_ATTR Enumerator_tED23DFBF3911229086C71CCE7A54D56F5FFB34
 // System.Collections.Generic.KeyValuePair`2<!0,!1> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_Current()
 extern "C" IL2CPP_METHOD_ATTR KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE  Enumerator_get_Current_m5B32A9FC8294CB723DCD1171744B32E1775B6318_gshared (Enumerator_tED23DFBF3911229086C71CCE7A54D56F5FFB34CB * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * KeyValuePair_2_get_Key_m3AA5875E6F038F027D9B80929300B746525F9D65_gshared (KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE * __this, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * KeyValuePair_2_get_Key_m9D4E9BCBAB1BE560871A0889C851FC22A09975F4_gshared (KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE * __this, const RuntimeMethod* method);
 // !1 System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Value()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject * KeyValuePair_2_get_Value_m8C7B882C4D425535288FAAD08EAF11D289A43AEC_gshared (KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE * __this, const RuntimeMethod* method);
 // !0[] System.Collections.Generic.List`1<System.Object>::ToArray()
@@ -22460,9 +22460,9 @@ extern "C" IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m04F91EFB2C11DE1ED3962728
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.UInt32,System.Object>::Dispose()
 extern "C" IL2CPP_METHOD_ATTR void Enumerator_Dispose_m93691FBE2D1361459DE48F5C0D9F0A988A78D18E_gshared (Enumerator_t436FDE5093367A803EC2F4960B2D8FD4498628DE * __this, const RuntimeMethod* method);
 // System.Void System.Func`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
-extern "C" IL2CPP_METHOD_ATTR void Func_2__ctor_m52B660F7AF11A491D7A162298208BFA7A5CF26A3_gshared (Func_2_t4B4B1E74248F38404B56001A709D81142DE730CC * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR void Func_2__ctor_m5153AE6EE06BA488EF3D92A0DCF7E4EF530961B5_gshared (Func_2_t7EE965B791A606D187CCB69569A433D4CBB36879 * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method);
 // !!0 System.Linq.Enumerable::First<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Enumerable_First_TisRuntimeObject_mCA96E8BD73F390BBED9835826404B924131D0F30_gshared (RuntimeObject* p0, Func_2_t4B4B1E74248F38404B56001A709D81142DE730CC * p1, const RuntimeMethod* method);
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Enumerable_First_TisRuntimeObject_mCA96E8BD73F390BBED9835826404B924131D0F30_gshared (RuntimeObject* p0, Func_2_t7EE965B791A606D187CCB69569A433D4CBB36879 * p1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::ContainsKey(!0)
 extern "C" IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m93EC95B6E113BF7A1AD4504EDB8B9991D8DABAC0_gshared (Dictionary_2_t9D3330644BF8CBACB84AB5EA2438CFB219E5D4D7 * __this, uint32_t p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.UInt32,System.Object>::Add(!0,!1)
@@ -22841,7 +22841,7 @@ inline KeyValuePair_2_tBE9B9D8C86D2569964644168F814CE6BC7A2C852  Enumerator_get_
 // !0 System.Collections.Generic.KeyValuePair`2<UnityEngine.Renderer,System.Collections.Generic.List`1<UnityEngine.Material>>::get_Key()
 inline Renderer_t0556D67DD582620D1F495627EDE30D03284151F4 * KeyValuePair_2_get_Key_m67E218CE042674CBBCC327CCEDDDB395030D3963 (KeyValuePair_2_tBE9B9D8C86D2569964644168F814CE6BC7A2C852 * __this, const RuntimeMethod* method)
 {
-	return ((  Renderer_t0556D67DD582620D1F495627EDE30D03284151F4 * (*) (KeyValuePair_2_tBE9B9D8C86D2569964644168F814CE6BC7A2C852 *, const RuntimeMethod*))KeyValuePair_2_get_Key_m3AA5875E6F038F027D9B80929300B746525F9D65_gshared)(__this, method);
+	return ((  Renderer_t0556D67DD582620D1F495627EDE30D03284151F4 * (*) (KeyValuePair_2_tBE9B9D8C86D2569964644168F814CE6BC7A2C852 *, const RuntimeMethod*))KeyValuePair_2_get_Key_m9D4E9BCBAB1BE560871A0889C851FC22A09975F4_gshared)(__this, method);
 }
 // !1 System.Collections.Generic.KeyValuePair`2<UnityEngine.Renderer,System.Collections.Generic.List`1<UnityEngine.Material>>::get_Value()
 inline List_1_t6A61046573B0BC4E12950B90305C189DD041D786 * KeyValuePair_2_get_Value_mE29BF3C6964AD74FFEF854B802C784EDDA3B7CC6 (KeyValuePair_2_tBE9B9D8C86D2569964644168F814CE6BC7A2C852 * __this, const RuntimeMethod* method)
@@ -23309,7 +23309,7 @@ extern "C" IL2CPP_METHOD_ATTR void ManipulationHandler_HandleTwoHandManipulation
 // System.Void System.Func`2<Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping,System.Boolean>::.ctor(System.Object,System.IntPtr)
 inline void Func_2__ctor_mF2E4923DA936E80848003F0F0E2E452F4B2C1D79 (Func_2_t241D99AD8D52D1660BF100C4C32D3A253BFFF8BB * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_t241D99AD8D52D1660BF100C4C32D3A253BFFF8BB *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m52B660F7AF11A491D7A162298208BFA7A5CF26A3_gshared)(__this, p0, p1, method);
+	((  void (*) (Func_2_t241D99AD8D52D1660BF100C4C32D3A253BFFF8BB *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m5153AE6EE06BA488EF3D92A0DCF7E4EF530961B5_gshared)(__this, p0, p1, method);
 }
 // !!0 System.Linq.Enumerable::First<Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
 inline MixedRealityInteractionMapping_tF40535F5D25A7AEA688519D1A5674324B999CAE2 * Enumerable_First_TisMixedRealityInteractionMapping_tF40535F5D25A7AEA688519D1A5674324B999CAE2_mB796E9F76806E9E2A2D063CB3A796C0FC8C79C45 (RuntimeObject* p0, Func_2_t241D99AD8D52D1660BF100C4C32D3A253BFFF8BB * p1, const RuntimeMethod* method)
@@ -25772,7 +25772,7 @@ IL_0064:
 		PropertyInfo_t * L_26 = V_7;
 		ReceiverBase_tFF95CDCA35CCFD88FCC5EC183AB2F237CB2092E4 * L_27 = V_0;
 		NullCheck(L_26);
-		RuntimeObject * L_28 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* >::Invoke(24 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_26, L_27, (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)NULL);
+		RuntimeObject * L_28 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* >::Invoke(26 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_26, L_27, (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)NULL);
 		(&V_11)->set_Value_1(L_28);
 		InspectorFieldData_t510F032EC513D2686E2E080EAB7412EF4B7D99AE  L_29 = V_11;
 		NullCheck(L_22);

@@ -5841,6 +5841,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TEXTUREMAPPINGOPTIONS_TAC77A218D6DF5F386DA38AEAF3D9C943F084BD10_H
+#ifndef UNICODECHARACTER_T4207708CC437B759E2459FBB1A2195ED895B72E6_H
+#define UNICODECHARACTER_T4207708CC437B759E2459FBB1A2195ED895B72E6_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// TMPro.UnicodeCharacter
+struct  UnicodeCharacter_t4207708CC437B759E2459FBB1A2195ED895B72E6 
+{
+public:
+	// System.UInt32 TMPro.UnicodeCharacter::value__
+	uint32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(UnicodeCharacter_t4207708CC437B759E2459FBB1A2195ED895B72E6, ___value___2)); }
+	inline uint32_t get_value___2() const { return ___value___2; }
+	inline uint32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(uint32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNICODECHARACTER_T4207708CC437B759E2459FBB1A2195ED895B72E6_H
 #ifndef VERTEXGRADIENT_TDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A_H
 #define VERTEXGRADIENT_TDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A_H
 #ifdef __clang__
@@ -5929,6 +5958,64 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // VERTEXSORTINGORDER_T2571FF911BB69CC1CC229DF12DE68568E3F850E5_H
+#ifndef _HORIZONTALALIGNMENTOPTIONS_TAB8CD906738706E3798D087C5C993333187F8882_H
+#define _HORIZONTALALIGNMENTOPTIONS_TAB8CD906738706E3798D087C5C993333187F8882_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// TMPro._HorizontalAlignmentOptions
+struct  _HorizontalAlignmentOptions_tAB8CD906738706E3798D087C5C993333187F8882 
+{
+public:
+	// System.Int32 TMPro._HorizontalAlignmentOptions::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(_HorizontalAlignmentOptions_tAB8CD906738706E3798D087C5C993333187F8882, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // _HORIZONTALALIGNMENTOPTIONS_TAB8CD906738706E3798D087C5C993333187F8882_H
+#ifndef _VERTICALALIGNMENTOPTIONS_T1E4A066C44CB004C8AA7F96631DE179C296CC20C_H
+#define _VERTICALALIGNMENTOPTIONS_T1E4A066C44CB004C8AA7F96631DE179C296CC20C_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// TMPro._VerticalAlignmentOptions
+struct  _VerticalAlignmentOptions_t1E4A066C44CB004C8AA7F96631DE179C296CC20C 
+{
+public:
+	// System.Int32 TMPro._VerticalAlignmentOptions::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(_VerticalAlignmentOptions_t1E4A066C44CB004C8AA7F96631DE179C296CC20C, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // _VERTICALALIGNMENTOPTIONS_T1E4A066C44CB004C8AA7F96631DE179C296CC20C_H
 #ifndef ADDITIONALCANVASSHADERCHANNELS_T2576909EF4884007D0786E0FEEB894B54C61107E_H
 #define ADDITIONALCANVASSHADERCHANNELS_T2576909EF4884007D0786E0FEEB894B54C61107E_H
 #ifdef __clang__
@@ -13443,6 +13530,8 @@ extern "C" IL2CPP_METHOD_ATTR void Bounds__ctor_m294E77A20EC1A3E96985FE1A925CB27
 extern "C" IL2CPP_METHOD_ATTR void TMP_Text__ctor_mC2261395B7E6695E1793CB54E728BB807716ED18 (TMP_Text_t7BA5B6522651EBED2D8E2C92CBE3F17C14075CE7 * __this, const RuntimeMethod* method);
 // System.Void TMPro.VertexGradient::.ctor(UnityEngine.Color)
 extern "C" IL2CPP_METHOD_ATTR void VertexGradient__ctor_mE2211E9FF5EB4FD910EA4D38FBA1BFC67CB4393F (VertexGradient_tDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color0, const RuntimeMethod* method);
+// System.Void TMPro.VertexGradient::.ctor(UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)
+extern "C" IL2CPP_METHOD_ATTR void VertexGradient__ctor_m5AAE113F629912122A0947CA8048E2DE542529B8 (VertexGradient_tDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color00, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color11, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color22, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color33, const RuntimeMethod* method);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -32566,6 +32655,14 @@ extern "C" IL2CPP_METHOD_ATTR void TextMeshProUGUI__ctor_mD7820CFC1E890D395F70CE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void TMPro.VertexGradient::.ctor(UnityEngine.Color)
 extern "C" IL2CPP_METHOD_ATTR void VertexGradient__ctor_mE2211E9FF5EB4FD910EA4D38FBA1BFC67CB4393F (VertexGradient_tDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color0, const RuntimeMethod* method)
 {
@@ -32590,6 +32687,31 @@ extern "C"  void VertexGradient__ctor_mE2211E9FF5EB4FD910EA4D38FBA1BFC67CB4393F_
 {
 	VertexGradient_tDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A * _thisAdjusted = reinterpret_cast<VertexGradient_tDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A *>(__this + 1);
 	VertexGradient__ctor_mE2211E9FF5EB4FD910EA4D38FBA1BFC67CB4393F(_thisAdjusted, ___color0, method);
+}
+// System.Void TMPro.VertexGradient::.ctor(UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)
+extern "C" IL2CPP_METHOD_ATTR void VertexGradient__ctor_m5AAE113F629912122A0947CA8048E2DE542529B8 (VertexGradient_tDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color00, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color11, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color22, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color33, const RuntimeMethod* method)
+{
+	{
+		// this.topLeft = color0;
+		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_0 = ___color00;
+		__this->set_topLeft_0(L_0);
+		// this.topRight = color1;
+		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_1 = ___color11;
+		__this->set_topRight_1(L_1);
+		// this.bottomLeft = color2;
+		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_2 = ___color22;
+		__this->set_bottomLeft_2(L_2);
+		// this.bottomRight = color3;
+		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_3 = ___color33;
+		__this->set_bottomRight_3(L_3);
+		// }
+		return;
+	}
+}
+extern "C"  void VertexGradient__ctor_m5AAE113F629912122A0947CA8048E2DE542529B8_AdjustorThunk (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color00, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color11, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color22, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color33, const RuntimeMethod* method)
+{
+	VertexGradient_tDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A * _thisAdjusted = reinterpret_cast<VertexGradient_tDDAAE14E70CADA44B1B69F228CFF837C67EF6F9A *>(__this + 1);
+	VertexGradient__ctor_m5AAE113F629912122A0947CA8048E2DE542529B8(_thisAdjusted, ___color00, ___color11, ___color22, ___color33, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -32637,6 +32759,22 @@ extern "C" void WordWrapState_t415B8622774DD094A9CD7447D298B33B7365A557_marshal_
 extern "C" void WordWrapState_t415B8622774DD094A9CD7447D298B33B7365A557_marshal_com_cleanup(WordWrapState_t415B8622774DD094A9CD7447D298B33B7365A557_marshaled_com& marshaled)
 {
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
